@@ -27,7 +27,7 @@ h1, h2, h3 {
 
 
 .first-half{
-    background-image: url(pexels-pixabay-159291.jpg);
+    background-image: url(images/pexels-pixabay-159291.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -68,7 +68,6 @@ h1, h2, h3 {
 
 .Box2, .Box3{
     background-size: cover;
-    background-position: top;
     text-align: center;
     background-color: black;
 }
@@ -80,12 +79,14 @@ h1, h2, h3 {
 }
 
 .Box2{
-    background-image: url(pexels-nicolas-postiglioni-991970.jpg);
+    background-image: url(images/pexels-nicolas-postiglioni-991970.jpg);
+    background-position: top;
     float: right;
 }
 
 .Box3{
-    background-image: url(pexels-helena-lopes-1796698.jpg);
+    background-image: url(images/pexels-helena-lopes-1796698.jpg);
+    background-position: center;
     float: left;
 }
 
