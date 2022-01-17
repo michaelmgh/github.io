@@ -27,7 +27,7 @@ h1, h2, h3 {
 
 
 .first-half{
-    background-image: url(pexels-pixabay-159291.jpg);
+    background-image: url(/pexels-pixabay-159291.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
