@@ -2,17 +2,9 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Accelerometer Demo</title>
+        <title>Beer pouring</title>
 
-        <style>
-        .indicatorDot{
-            width: 30px;
-            height: 30px;
-            background-color: #ffab56;
-            border-radius: 50%;
-            position:fixed;
-        }
-        </style>
+        <link rel="stylesheeta" href="applicationstyle.css">
 
     <script>var px = 50; // Position x and y
         var py = 50;
@@ -68,8 +60,10 @@
             });
         }</script>
     </head>
+
     <body style="background-color:rgb(0, 0, 0);">
         <button id="accelPermsButton"  style="height:50px;" onclick="getAccel()"><h1>Get Accelerometer Permissions</h1></button>
-        <div class="indicatorDot" style="left:30%; top:30%;"></div>
+        <div class="foam"></div>
+        <div class="beer"></div>
     </body>
 </html>
