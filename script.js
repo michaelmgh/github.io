@@ -9,6 +9,16 @@ var updateRate = 1/60; // Sensor refresh rate
 function getAccel(){
     DeviceMotionEvent.requestPermission().then(response => {
         if (response == 'granted') {
+            console.log("accelerometer permission granted");
+            // Do stuff here
+        }
+    });
+}
+
+/*
+function getAccel(){
+    DeviceMotionEvent.requestPermission().then(response => {
+        if (response == 'granted') {
        // Add a listener to get smartphone orientation 
            // in the alpha-beta-gamma axes (units in degrees)
             window.addEventListener('deviceorientation',(event) => {
@@ -42,4 +52,4 @@ function getAccel(){
             });
         }
     });
-}
+}*/
