@@ -37,6 +37,12 @@
                         // Since phones are narrower than they are long, double the increase to the x velocity
                         vx = vx + leftToRight_degrees * updateRate*2; 
                         vy = vy + frontToBack_degrees * updateRate;
+/* 
+                        if(frontToBack_degrees<) {
+                            window.alert("your beer runs out");
+                        } */
+
+                        window.alert(frontToBack_degrees);
                         
                         // Update position and clip it to bounds
                         px = px + vx*.5;
