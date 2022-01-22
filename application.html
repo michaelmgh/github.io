@@ -31,8 +31,6 @@
                         if(frontToBack_degrees<10) {
                             window.alert("your beer runs out");
                         }
-
-                        window.alert(frontToBack_degrees);
                         
                         // Update position and clip it to bounds
                         px = px + vx*.5;
@@ -47,14 +45,15 @@
                             vy = 0;
                         }
 
-                        dot = document.getElementsByClassName("indicatorDot")[0]
-                        dot.setAttribute('style', "left:" + (px) + "%;" +
+                        beerBox = document.getElementsByClassName("beer")[0]
+                        beerBox.setAttribute('style', "left:" + (px) + "%;" +
                                                       "top:" + (py) + "%;");
 
-                        dot = document.getElementsByClassName("indicatorDot")[0]
-                        dot.setAttribute('style', "left:" + (px) + "%;" +
+                        foamBox = document.getElementsByClassName("foam")[0]
+                        foamBox.setAttribute('style', "left:" + (px) + "%;" +
                                                       "top:" + (py) + "%;");
                         
+
                         dot = document.getElementsByClassName("indicatorDot")[0]
                         dot.setAttribute('style', "left:" + (px) + "%;" +
                                                       "top:" + (py) + "%;");

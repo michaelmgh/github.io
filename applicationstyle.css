@@ -4,4 +4,19 @@
     background-color: #ffab56; 
     border-radius: 50%;
     position:fixed;
-        }
+}
+
+.beer{
+    width: 100vw;
+    height: 20vh;
+    top: 50%;
+    background-color: yellow;
+}
+
+
+.foam{
+    width: 100vw;
+    height: 20vh;
+    position: absolute;
+    background-color: azure;
+}
