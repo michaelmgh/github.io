@@ -41,5 +41,5 @@
     position: absolute;
     background-color: rgb(207, 207, 207);
     background-image: url(Schaumgesamt.jpeg);
-    background-position: center;
+    background-size: cover;
 }
