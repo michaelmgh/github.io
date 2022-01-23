@@ -67,8 +67,8 @@
                             beerBox.setAttribute('style', "height:" + (beerSize) + "vh;");
 
                             foamBox = document.getElementsByClassName("foam")[0]
-                            foamBox.setAttribute('style', "height:" + (foamSize) +"vh;" +
-                                                        "bottom"+ (beerSize) + "vh;");
+                            foamBox.setAttribute('style', "bottom"+ (beerSize) + "vh;" + "height:" + (foamSize) +"vh;"
+                                                        );
 
                             if (beerSize + foamSize == 100) {
                                 exit("the glass is full")

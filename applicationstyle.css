@@ -28,7 +28,6 @@
     width: 100vw;
     height: 0;
     bottom: 0;
-    background-color: yellow;
     background-image: url(Flüssigkeit.jpeg);
     background-position: center;
 }
@@ -42,5 +41,5 @@
     position: absolute;
     background-color: rgb(207, 207, 207);
     background-image: url(Schaum.jpeg);
-    background-position: top;
+    background-position: center;
 }
