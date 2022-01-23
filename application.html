@@ -16,6 +16,8 @@
 
             var foamAdd = 0;
             var beerAdd = 0;
+            var foamSize = 5;
+            var beerSize = 5;
             var updateRate = 1/60; // Sensor refresh rate
             
             function getAccel(){
@@ -51,6 +53,9 @@
                                 beerAdd = 0.5;
                                 foamAdd = 3;
                             }
+
+                            beerSize = beerSize + beerAdd;
+                            foamSize = foamSize + foamAdd;
                             
 
                             beerBox = document.getElementsByClassName("beer")[0]
