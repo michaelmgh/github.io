@@ -37,7 +37,7 @@ h1, h2, h3 {
 
 }
 
-.second-half #line1, .second-half #line2, .bottomLine{
+.second-half #line1, .second-half #line2 {
     display: flex;
     max-width: 120rem;
 }
@@ -63,6 +63,7 @@ h1, h2, h3 {
 
 .Box1 h2, .Box4 h2{
     transform: translate(0%, -5%);
+    margin: 2rem;
 }
 
 .Box2, .Box3{
@@ -104,20 +105,21 @@ h1, h2, h3 {
     justify-content: center;
 }
 
-
 .bottomLine .button{
-    margin-top: 2rem;
-    color:black;
-    height: 6rem;
     font-size: xx-large;
-    border-style: none;
-    background-color: white;
+    color: black;
     cursor: pointer;
-    padding: 1rem 2rem;
     border-radius: .5rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-decoration: none;
+
+    border-style: none;
+    background-color: white;
 }
+
+/* 
+.bottomLine .button{
+} */
 
 .bottomLine .button:active {
     background-color:white;
