@@ -53,7 +53,7 @@ h1, h2, h3 {
 
 .Box1, .Box2, .Box3, .Box4{
     max-width: 60rem;
-    height: 20rem;
+    height: 25rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -133,6 +133,12 @@ h1, h2, h3 {
 	.first-half #headline{
         font-size: 5rem;
     }
+
+    .Box1, .Box2, .Box3, .Box4{
+        height: 20rem;
+        display: flex;
+    }
+
 }
 
 @media screen and (min-width: 50rem){
@@ -141,9 +147,6 @@ h1, h2, h3 {
     width: 60rem;
     height: 20rem;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .second-half #line1, .second-half #line2{
