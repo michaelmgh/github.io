@@ -30,6 +30,7 @@
     bottom: 0;
     background-image: url(Bier.jpeg);
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 
@@ -41,5 +42,6 @@
     position: absolute;
     background-color: rgb(207, 207, 207);
     background-image: url(Schaumgesamt.jpeg);
-    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
