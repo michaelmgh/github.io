@@ -30,11 +30,7 @@
                             // Expose each orientation angle in a more readable way
                             frontToBack_degrees = event.beta;
 
-                        for (var i = 0; i<1000; i++) {
-
-                            
-
-                            
+                     
 
                             if(frontToBack_degrees<10) {
                                 window.alert("your beer runs out");
@@ -54,12 +50,16 @@
                                 foamAdd = 2;
                             }
 
-                            else /* if(frontToBack_degrees>70 && frontToBack_degrees<100) */ {
+                            else if(frontToBack_degrees>70 && frontToBack_degrees<100) {
                                 beerAdd = 0.5;
                                 foamAdd = 3;
                             }
 
-                            beerSize = beerSize + beerAdd;
+                            else {
+                                window.alert("lean it back");
+                            }
+
+                            beerSize += beerAdd;
                             foamSize = foamSize + foamAdd;
                             
 
@@ -70,7 +70,7 @@
                             foamBox.setAttribute('style', "height:" + (foamAdd) +"vh;" +
                                                         "bottom"+ (beerAdd) + "vh;");
                         
-                        }
+
                            /*  dot = document.getElementsByClassName("indicatorDot")[0]
                             dot.setAttribute('style', "left:" + (px) + "%;" +
                                                         "top:" + (py) + "%;"); */
