@@ -28,7 +28,7 @@
     width: 100vw;
     height: 0;
     bottom: 0;
-    background-image: url(Flüssigkeit.jpeg);
+    background-image: url(Bier.jpeg);
     background-position: center;
 }
 
@@ -40,6 +40,6 @@
     bottom: 0;
     position: absolute;
     background-color: rgb(207, 207, 207);
-    background-image: url(Schaum.jpeg);
+    background-image: url(Schaumgesamt.jpeg);
     background-position: center;
 }
