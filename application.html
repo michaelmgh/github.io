@@ -32,11 +32,11 @@
 
                      
 
-                            if(frontToBack_degrees<10) {
+                            if(frontToBack_degrees<0) {
                                 window.alert("your beer runs out");
                             }
 
-                            else if(frontToBack_degrees>10 && frontToBack_degrees<30) {
+                            else if(frontToBack_degrees>0 && frontToBack_degrees<30) {
                                 beerAdd = 0.1;
                             }
 
@@ -68,10 +68,10 @@
                             
 
                             beerBox = document.getElementsByClassName("beer")[0]
-                            beerBox.setAttribute('style', "height:" + (beerSize) + "vh;");
+                            beerBox.setAttribute('style', "height:" (beerSize) /* + "vh;" */);
 
                             foamBox = document.getElementsByClassName("foam")[0]
-                            foamBox.setAttribute('style', /* "bottom"+ (beerSize) + "vh;" +  */"height:" + (foamSize + beerSize) +"vh;"
+                            foamBox.setAttribute('style', /* "bottom"+ (beerSize) + "vh;" +  */"height:" (foamSize + beerSize) +"vh;"
                                                         );
 
                             if (beerSize + foamSize == 100) {
