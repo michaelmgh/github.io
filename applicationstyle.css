@@ -1,7 +1,7 @@
 .accelPermsButton .btn1{
     position: absolute;
     margin: 5em;
-    font-size: 3rem;
+    font-size: 2.5rem;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -40,7 +40,7 @@
     position: absolute;
     width: 100vw;
     height: 1vh;
-    bottom: 10vh;
+    bottom: 5vh;
     position: absolute;
     background-color: rgb(207, 207, 207);
     background-image: url(Schaum.jpeg);

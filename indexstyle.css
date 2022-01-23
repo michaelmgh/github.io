@@ -40,9 +40,6 @@ h1, h2, h3 {
 .second-half #line1, .second-half #line2 {
     display: flex;
     max-width: 120rem;
-    align-items: center;
-    justify-content: center;
-    text-align: center
 }
 
 .second-half #line1{
@@ -56,7 +53,7 @@ h1, h2, h3 {
 
 .Box1, .Box2, .Box3, .Box4{
     max-width: 60rem;
-    height: 66rem;
+    height: 20rem;
     display: flex;
     align-items: center;
     justify-content: center;

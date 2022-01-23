@@ -36,17 +36,17 @@
                             }
 
                             else if(frontToBack_degrees>10 && frontToBack_degrees<30) {
-                                beerAdd = 1;
+                                beerAdd = 1*updateRate;
                             }
 
                             else if(frontToBack_degrees>30 && frontToBack_degrees<50) {
-                                beerAdd = 1;
-                                foamAdd = 1;
+                                beerAdd = 1*updateRate;
+                                foamAdd = 1*updateRate;
                             }
 
                             else if(frontToBack_degrees>50 && frontToBack_degrees<70) {
-                                beerAdd = 0.5;
-                                foamAdd = 2;
+                                beerAdd = 0.5*updateRate;
+                                foamAdd = 2*updateRate;
                             }
 
                             else if(frontToBack_degrees>70 && frontToBack_degrees<100) {
