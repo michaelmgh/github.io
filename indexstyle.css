@@ -53,7 +53,7 @@ h1, h2, h3 {
 
 .Box1, .Box2, .Box3, .Box4{
     max-width: 60rem;
-    height: 25rem;
+    height: 45rem;
     display: flex;
     align-items: center;
     justify-content: center;
