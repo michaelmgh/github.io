@@ -42,22 +42,26 @@
 
                             else if(frontToBack_degrees>30 && frontToBack_degrees<50) {
                                 beerAdd = 0.1;
-                                foamAdd = 0.1;
+                               /*  foamAdd = 0.1; */
                             }
 
                             else if(frontToBack_degrees>50 && frontToBack_degrees<70) {
                                 beerAdd = 0.05;
-                                foamAdd = 0.2;
+                                /* foamAdd = 0.2; */
                             }
 
                             else if(frontToBack_degrees>70 && frontToBack_degrees<100) {
                                 beerAdd = 0.05;
-                                foamAdd = 0.3;
+                                /* foamAdd = 0.3; */
                             }
 
                             else {
                                 window.alert("lean it back");
                             }
+
+                            foamAdd= frontToBack_degrees*0.01;
+
+                           
 
                             beerSize = beerSize + beerAdd;
                             foamSize = foamSize + foamAdd;
