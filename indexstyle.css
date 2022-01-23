@@ -14,7 +14,6 @@ h1, h2, h3 {
     z-index: 1;
     font-size: 10rem;
     position: absolute;
-    margin-top: 5rem;
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -28,6 +27,7 @@ h1, h2, h3 {
     height: 50rem;
     text-align: center;
     justify-content: center;
+    align-items: center;
 }
 
 .second-half{
@@ -40,6 +40,9 @@ h1, h2, h3 {
 .second-half #line1, .second-half #line2 {
     display: flex;
     max-width: 120rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center
 }
 
 .second-half #line1{
@@ -53,7 +56,7 @@ h1, h2, h3 {
 
 .Box1, .Box2, .Box3, .Box4{
     max-width: 60rem;
-    height: 20rem;
+    height: 66rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -61,7 +64,7 @@ h1, h2, h3 {
 }
 
 
-.Box1 h2, .Box4 h2{
+.Box1 h2, .Box4 h2{ 
     transform: translate(0%, -5%);
     margin: 2rem;
 }
