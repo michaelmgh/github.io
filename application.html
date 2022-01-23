@@ -37,22 +37,22 @@
                             }
 
                             else if(frontToBack_degrees>10 && frontToBack_degrees<30) {
-                                beerAdd = 1;
+                                beerAdd = 0.1;
                             }
 
                             else if(frontToBack_degrees>30 && frontToBack_degrees<50) {
-                                beerAdd = 1;
-                                foamAdd = 1;
+                                beerAdd = 0.1;
+                                foamAdd = 0.1;
                             }
 
                             else if(frontToBack_degrees>50 && frontToBack_degrees<70) {
-                                beerAdd = 0.5;
-                                foamAdd = 2;
+                                beerAdd = 0.05;
+                                foamAdd = 0.2;
                             }
 
                             else if(frontToBack_degrees>70 && frontToBack_degrees<100) {
-                                beerAdd = 0.5;
-                                foamAdd = 3;
+                                beerAdd = 0.05;
+                                foamAdd = 0.3;
                             }
 
                             else {
@@ -69,6 +69,10 @@
                             foamBox = document.getElementsByClassName("foam")[0]
                             foamBox.setAttribute('style', "height:" + (foamSize) +"vh;" +
                                                         "bottom"+ (beerSize) + "vh;");
+
+                            if (beerSize + foamSize == 100) {
+                                exit("the glass is full")
+                            }
                         
 
                            /*  dot = document.getElementsByClassName("indicatorDot")[0]
