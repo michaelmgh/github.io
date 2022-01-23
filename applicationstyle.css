@@ -8,7 +8,6 @@
     border-radius: .5rem;
     background-color: rgb(255, 255, 255);
     height: 10rem;
-    z-index: 0;
 }
 
 /* button stylen läuft noch nicht
@@ -32,7 +31,6 @@
     background-color: yellow;
     background-image: url(Flüssigkeit.jpeg);
     background-position: center;
-    z-index: 3;
 }
 
 
@@ -45,5 +43,4 @@
     background-color: rgb(207, 207, 207);
     background-image: url(Schaum.jpeg);
     background-position: top;
-    z-index: 2;
 }
