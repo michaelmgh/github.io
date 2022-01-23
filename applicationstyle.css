@@ -35,7 +35,7 @@
 
 
 .foam{
-    position: absolute;
+    position: relative;
     width: 100vw;
     height: 0;
     bottom: 0;
