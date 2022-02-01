@@ -23,7 +23,7 @@
 
 
 .foam{
-    position: relative;
+    position: absolute;
     width: 100vw;
     height: 20vh;
     bottom: 0vh;
