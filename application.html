@@ -71,9 +71,9 @@
                             beerBox.setAttribute('style', "height:" + (beerSize) + "vh;");
 
                             foamBox = document.getElementsByClassName("foam")[0]
-                            /* foamBox.setAttribute('style', "bottom"+ (beerSize) + "vh;" +  "height:" + (foamSize + beerSize) +"vh;"); */
-                            foamBox.style.bottom = "beerSize"  + "vh;";
-                            foamBox.style.height = "(foamSize + beerSize)";
+                            foamBox.setAttribute('style', /* "bottom"+ (beerSize) + "vh;" +  */ "height:" + (foamSize + beerSize) +"vh;");
+                           /*  foamBox.style.bottom = "beerSize"  + "vh;";
+                            foamBox.style.height = "(foamSize + beerSize)"; */
                             foamBox.style.backgroundColor = "red";
                             //so propbieren: element.style.backgroundColor = "red";
                                                         
