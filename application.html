@@ -32,11 +32,11 @@
 
                      
 
-                            if(frontToBack_degrees<0) {
+                            if(frontToBack_degrees<5) {
                                 window.alert("your beer runs out");
                             }
 
-                            else if(frontToBack_degrees>0 && frontToBack_degrees<30) {
+                            else if(frontToBack_degrees>5 && frontToBack_degrees<30) {
                                 beerAdd = 0.1;
                             }
 
@@ -72,8 +72,8 @@
 
                             foamBox = document.getElementsByClassName("foam")[0]
                             /* foamBox.setAttribute('style', "bottom"+ (beerSize) + "vh;" +  "height:" + (foamSize + beerSize) +"vh;"); */
-                            foamBox.style.bottom = (beerSize) + "vh;";
-                            foamBox.style.height = (foamSize + beerSize) +"vh;";
+                            foamBox.style.bottom = "(beerSize) + vh;";
+                            foamBox.style.height = "(foamSize + beerSize) +vh;";
                             //so propbieren: element.style.backgroundColor = "red";
                                                         
 
