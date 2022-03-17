@@ -13,7 +13,7 @@
 
 .beer{
     position: absolute;
-    width: 50vw;
+    width: 100vw;
     height: 0;
     bottom: 0;
     background-image: url(Bier.jpeg);/* 
